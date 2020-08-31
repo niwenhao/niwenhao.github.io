@@ -1,0 +1,39 @@
+.setsumei {
+	line-height:1.5em;
+	padding:5px 10px;
+	}
+	
+h3 {
+	border-bottom:2px solid #52472D;
+	font-weight:bold;
+	margin:20px 10px 5px;
+	padding:0 0 0 5px;
+	}
+
+h3.ttl {
+	margin: 0 auto 10px auto;
+	border-bottom: 2px dotted #5CA078;
+	font-weight: bold;
+	font-size: 115%;
+	padding: 5px;
+	}
+
+ol li {
+	line-height:1.5em;
+	padding:0 20px 0 60px;
+	text-indent:-2em;
+	}
+
+#main p {
+	text-indent:-1em;
+	margin: 10px auto;
+	}
+
+.otoiawase {
+	padding: 5px;
+	line-height: 1.5;
+	}
+
+.otoiawase li {
+line-height:1.2em;
+}

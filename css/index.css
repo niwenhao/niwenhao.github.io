@@ -1,0 +1,575 @@
+@charset "utf-8";
+
+/************************************************************** フォント **/
+
+* {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+/*************************************************** mozilaフォントバグ **/
+
+* {
+	font-family: "\FF2D\FF33\20\FF30\30B4\30B7\30C3\30AF", Osaka, Arial, Helvetica, sans-serif;
+}
+
+* {
+     margin: 0 ;
+	 padding: 0 ;
+}
+ 
+ body {
+	font-size: 76%;
+}
+    
+ul, li {
+	list-style-type: none;
+}
+
+img {
+     border: 0 ;
+}
+
+a {
+    color: #3333ff ;
+	text-decoration: underline ;
+}
+
+a:hover {
+     color: #3366ff ;
+	 text-decoration: none ;
+}
+
+
+
+/************************************************************ clearfix **/
+
+.clearfix:after {
+	content: ".";  
+	display: block;  
+	visibility: hidden;  
+	height: 0.1px;  
+	font-size: 0.1em;  
+	line-height: 0;  
+	clear: both; 
+}
+
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+.clearfix { zoom: 100%; }
+
+
+
+
+/*************************************************** heder **/
+
+#wrapper {
+}
+     
+#header {
+     width: 950px ;
+	 height: 108px;
+	 margin: 0 auto 10px auto; 
+	 position: relative ; 
+}
+
+#header h1 {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	font-size: 84%;
+	font-weight: normal;
+}
+
+
+#header h2 {
+	position: absolute;
+	left: 0;
+	top: 35px;
+}
+
+#header p.tel {
+	position: absolute;
+	top: 22px;
+	right: 10px;
+	width: 301px;
+	margin: 0;
+	padding: 0;
+}
+
+#header p.tenryu {
+	position: absolute;
+	top:75px;
+	width: 301px;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+#header ul {
+     /*position:absolute ;
+	 top: 50px ;
+	 left :50px ;*/
+	 text-align: right ;
+	 margin: 0 0 0 722px ;
+}
+
+#header ul li {
+     float: left ;
+}
+
+#header p.pht {
+     margin: 0 0 11px ;
+}
+
+
+#photo {
+	background: #000;
+	}
+
+#photo p{
+	width: 950px;
+	margin: 0 auto 10px auto;
+	}
+
+
+/*************************************************** gNavi **/
+
+#gNavi {
+     background:url(/images/bg_Gnavi.gif) repeat-x ;
+	 margin: 0 0 8px ;
+	 height: 46px;
+}
+
+#gNavi ul {
+     width: 950px ;
+	 margin: auto ;
+}
+
+#gNavi ul li {
+     float: left;
+}
+
+
+/*************************************************** content **/
+
+#content {
+    clear: both ;
+	width: 955px ;
+	min-height:208px ;
+	height: auto !important ;
+	height: 208px ;
+	margin: 0 auto 30px auto;
+}
+
+#content .topcont{
+	width: 948px;
+	margin: 0 auto;
+	border: 1px solid #666;
+	}
+
+#content .topcont .img{
+	width: 423px;
+	float: left;
+	}
+
+#content .topcont .coment{
+	width: 500px;
+	float: right;
+	padding: 10px;
+	line-height: 1.6;
+	}
+
+#content .box {
+	width: 950px;
+	margin: 10px auto 20px auto;
+	}
+
+#content .left {
+	width: 472px;
+	float: left;
+	}
+
+
+#content .left .left_main{
+	width: 472px;
+	height: 205px;
+	background-image: url(../images/bg_gengo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+
+#content .left .left_main .left_menu{
+	width: 152px;
+	float: left;
+	}
+
+#content .left .left_main .left_img{
+	width: 320px;
+	float: right;
+	}
+
+#content .left .left_text{
+	margin: 10px auto;
+	line-height: 1.5;
+	}
+
+#content .right {
+	width: 472px;
+	float: right;
+	}
+
+#content .right .right_main{
+	width: 472px;
+	height: 205px;
+	background-image: url(../images/bg_car.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+
+#content .right .right_main .right_menu{
+	width: 152px;
+	float: left;
+	}
+
+#content .right .right_main .right_img{
+	width: 320px;
+	float: right;
+	}
+
+#content .right .right_text{
+	margin: 10px auto;
+	line-height: 1.5;
+	}
+
+
+#content .box .left ul.sub {
+	margin: 0 0 5px 0;
+}
+
+#content .box .left ul.sub li {
+	float: left;
+}
+
+#content .box .left ul.sub li.las {
+	float: right;
+}
+
+
+#content .box .left .ttl {
+	clear: both;
+}
+
+#content .box .left .txtbox{
+	margin:1px auto;
+	padding: 10px;
+	background: #ebebeb;
+	line-height: 1.5;
+	}
+
+#content .box  .left .txtbox .txt{
+	float: left;
+	width: 220px;
+	}
+
+#content .box  .left .txtbox .photo{
+	float: right;
+		width: 207px;
+	}
+
+#content .box  .right{
+	width: 471px;
+	float: right;
+	}
+
+#content .box  .left dd,
+#content .box  .right dd{
+	padding: 10px;
+	line-height: 1.6;
+	}
+
+
+
+/*	パンくず Setting
+----------------------------------------------------*/
+#path {
+	clear: both;
+	padding: 5px 0 5px 5px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+#path li {
+	display: inline;
+	line-height: 1.01;
+}
+
+#path li a {
+	padding: 0 15px 0 0;
+	margin: 0 5px 0 0;
+	background: url(../images/bg_path.gif) right center no-repeat;
+	color: #999;
+	text-decoration: none;
+}
+
+#path li a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+
+
+/** --------------------------------------------------------
+
+			左メニュー
+
+--------------------------------------------------------**/
+
+#content .leftContent {
+     width: 232px ;
+	 float: left; 
+	 margin: 0 10px 0 0 ;
+}
+
+#content .leftContent ul.menu {
+	background-image:url(../images/side/bg_sidemenu.jpg);
+	background-position: center bottom;
+	background-repeat: repeat-y;
+	padding: 20px 0 0 0;
+	}
+
+#content .leftContent .last{
+	margin: 0 0 20px 0;
+	}
+
+#content .leftContent .last2{
+	margin: 0 0 5px 0;
+	}
+
+
+#content .leftContent p.bt ,
+#content .rightContent p.bt {
+	margin: 0 0 5px 0;
+	}
+
+#content .centerContent {
+     width: 482px ;
+	 float: left; 
+	 margin: 0 10px 0 0 ;
+}
+
+#content .centerContent h2 {
+     margin: 0 0 5px ;
+}
+
+#content .rightContent {
+     float: right ;
+	 width: 710px;
+}
+
+/** ----------------------------------------------------
+
+	japanese, chinese
+
+-------------------------------------------------------**/
+
+#content .rightContent .box{
+	margin: 0 0 20px 0;
+	width: 708px;
+	}
+
+* html #content .rightContent .box{
+	margin: 0 0 20px 0;
+	width: 708px;
+	}
+
+
+#content .rightContent .box2{
+	margin: 0 0 20px 0;
+	width: 708px;
+	padding: 20px 0 0 0;
+	border-top: 1px solid #000;
+	}
+
+#content .rightContent .box p,
+#content .rightContent .box2 p {
+	line-height: 1.6;
+	margin: 0 0 10px 0;
+	}
+
+#content .rightContent .box p.txt,
+#content .rightContent .box2 p.txt{
+	padding: 10px;
+	line-height: 1.6;
+	margin: 0 0 10px 0;
+	}
+
+
+#content .rightContent .box dl ,
+#content .rightContent .box2 dl {
+	margin: 0 0 20px 5px;
+	}
+
+#content .rightContent .box dl dd,
+#content .rightContent .box2 dl dd {
+	margin: 5px;
+	line-height: 1.6;
+	}
+
+#content .rightContent .box dl dd table, 
+#content .rightContent .box2 dl dd table {
+	width: 650px;
+	margin: 10px auto;
+	border: 1px solid #333;
+	}
+
+#content .rightContent .box dl dd table td,
+#content .rightContent .box2 dl dd table td{
+	border: 1px solid #333;
+	border-left: none;
+	border-top: none;
+	padding: 5px;
+	}
+	
+#content .rightContent .box dl dd table td.ttl,
+#content .rightContent .box2 dl dd table td.ttl{
+	border: 1px solid #333;
+	background: #999;
+	color: #fcfcfc;
+	border-left: none;
+	border-top: none;
+	padding: 5px;
+	}
+
+#content .rightContent .box dl dd table td.righttd,
+#content .rightContent .box2 dl dd table td.righttd{
+	border-right:none;
+	}
+
+#content .rightContent .box dl dd table td.lasttd,
+#content .rightContent .box2 dl dd table td.lasttd{
+	border-bottom:none;
+	}
+
+#content .rightContent .gotop {
+	float: right;
+	text-align: right;
+	}
+/*************************************************** footer **/
+
+#footer {
+     clear: both ;
+	 background:#cbcbcb;
+	 height: 87px;
+	 padding: 10px 0 0 0;
+}
+
+#footer .footerTop {
+     width: 950px ;
+	 margin: auto ;
+}
+
+#footer .footerTop ul {
+	 width: 300px ;
+	 text-align: left;
+}
+
+#footer .footerBottom {
+     width: 950px ;
+	 margin: auto ;
+	 padding: 10px 0 0 0 ;
+}
+
+#footer .footerBottom p {
+	color:#000;
+	font-size:95%;
+	text-align:center;
+}
+
+#footer .footerTop ul li {
+     float: left ; 
+	 font-size: 95% ;
+	 
+	 /*margin: 0 15px 0 0 ;*/
+}
+
+
+/** ----------------------------------------------------
+
+	Car
+
+-------------------------------------------------------**/
+
+#content #car {
+}
+
+#content #car .box p {
+	margin: 20px 10px 30px 10px;
+}
+
+
+#content #car .box p.concon {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+#content #car .box p.goto {
+	margin: 0;
+	padding: 0;
+}
+
+
+#content #car .box h3#nd2 {
+	margin: 0 0 20px 0;
+} 
+
+
+#content #car .box dl {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 0;
+	border-bottom: 1px dashed #cccccc;
+}
+
+#content #car .box dl dt {
+	font-weight: bold;
+	margin: 0 18px 10px 10px;
+}
+
+#content #car .box dl dd {
+	margin: 0 18px 20px 24px;
+}
+
+
+
+#content #car .box table.money {
+	width: 650px;
+	margin: 10px auto;
+	background-color: #333;
+	}
+
+#content #car .box table.money td {
+	background-color: #FFFFFF;
+	padding: 5px;
+	}
+	
+#content #car .box table.money td.ttl {
+	background: #999;
+	color: #fcfcfc;
+	padding: 5px;
+	}
+
+#content #car .box table.money td.righttd {
+	border-right:none;
+	}
+
+#content #car .box table.money td.lasttd {
+	border-bottom:none;
+	}
+
+#content #car .box h4 {
+	margin: 30px 0 0 0;
+}
+
+#content #car .gotop {
+	float: right;
+	text-align: right;
+	}
